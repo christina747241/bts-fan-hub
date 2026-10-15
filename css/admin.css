@@ -1,0 +1,12 @@
+.admin{
+    margin-top: 70px;
+}
+
+.btn--delete{
+    color: #9900FF;
+    text-decoration: none;
+}
+
+.btn--delete:hover{
+    color: #c56fff;
+}

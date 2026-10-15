@@ -1,0 +1,17 @@
+.profile {
+    margin-top: 60px;
+}
+
+.role {
+    margin-bottom: 15px;
+    color: #9900FF;
+}
+
+.btn--cancel {
+    color: #9900FF;
+
+}
+
+.btn--cancel:hover {
+    color: #c56fff;
+}

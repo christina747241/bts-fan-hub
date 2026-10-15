@@ -1,0 +1,39 @@
+h3{
+    font-size: 22px;
+}
+.events{
+    margin-top: 70px;
+}
+
+.event__card{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+
+.event__img{
+    width: 400px;
+    height: auto;
+}
+
+.event__data{
+    grid-column: 2fr / 3fr;
+}
+
+.success-message{
+    color: #9900FF;
+}
+
+.already--booked{
+    color: #9900FF;
+}
+
+.btn--book{
+    color: #9900FF;
+
+}
+
+.btn--book:hover{
+    color: #c56fff;
+}

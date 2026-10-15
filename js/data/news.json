@@ -1,0 +1,50 @@
+[
+    {
+        "title": "contract",
+        "date": "2025-01-01",
+        "description": "contract details",
+        "image": "img/news/contract.jpg"
+    },
+    {
+        "title": "new album release",
+        "date": "2025-02-01",
+        "description": "exciting new music coming soon",
+        "image": "img/news/album.jpg"
+    },
+    {
+        "title": "upcoming concert tour",
+        "date": "2025-03-01",
+        "description": "join us for an unforgettable live experience",
+        "image": "img/news/concert.jpg"
+    },
+    {
+        "title": "exclusive merchandise drop",
+        "date": "2025-04-01",
+        "description": "get your hands on limited edition items",
+        "image": "img/news/merchandise.jpg"
+    },
+    {
+        "title": "special collaboration announcement",
+        "date": "2025-05-01",
+        "description": "exciting partnership details coming soon",
+        "image": "img/news/collaboration.jpg"
+    },
+    {
+        "title": "military service",
+        "date": "2025-06-01",
+        "description": "important announcement regarding military service",
+        "image": "img/news/military.jpg"
+    },
+    {
+        "title": "solo era",
+        "date": "2025-07-01",
+        "description": "exciting new chapter in the artist's career",
+        "image": "img/news/solo.jpg"
+    },
+    {
+        "title": "tour arirang",
+        "date": "2025-08-01",
+        "description": "join us for an unforgettable live experience",
+        "image": "img/news/arirang.jpg"
+    }
+]

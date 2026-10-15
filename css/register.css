@@ -1,0 +1,111 @@
+@import url(https://fonts.googleapis.com/css?family=Istok+Web:regular,italic,700,700italic);
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+:root {
+    --bg-color: #000000;
+    --text-color: #ffffff;
+    --accent-color: #9900FF;
+    --font-family: 'Istok Web', sans-serif;
+    --box-shadow: 10px 10px 50px 11px rgba(251, 251, 251, 0.5);
+
+    --border: 1px solid rgba(255, 255, 255, 0.3);
+    --background: rgba(255, 255, 255, 0.2);
+}
+
+.light-theme {
+    --bg-color: #ffffff;
+    --text-color: #000000;
+    --accent-color: #9900ff;
+    --box-shadow: 10px 10px 50px 11px rgba(3, 3, 3, 0.5);
+
+    --border: 1px solid rgba(0, 0, 0, 0.3);
+    --background: rgba(0, 0, 0, 0.2);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bg-color);
+    /* background-color: #2a2a2a; */
+    color: var(--text-color);
+    font-family: var(--font-family);
+    margin: 0;
+}
+
+.no-scroll {
+    overflow-y: hidden;
+}
+
+.container {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 500;
+}
+
+button {
+    all: unset;
+    cursor: pointer;
+}
+
+.join__form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px 30px;
+}
+
+.form__field {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.form__field--full,
+.join__form button {
+    grid-column: 1 / -1;
+}
+
+.join__form input {
+    padding: 10px;
+    font-size: 18px;
+    border: var(--border);
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+
+.join__form button {
+    padding: 10px 20px;
+    font-size: 18px;
+    border: 1px solid var(--text-color);
+    border-radius: 50px;
+    background-color: transparent;
+    color: var(--text-color);
+    text-align: center;
+}
+
+.join__form button:hover {
+    border-color: var(--accent-color);
+}
+
+.link {
+    text-align: center;
+    font-size: 16px;
+    color: var(--text-color);
+    text-decoration: none;
+
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+.link:hover {
+    text-decoration: underline;
+    color: var(--accent-color);
+}

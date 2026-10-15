@@ -1,0 +1,58 @@
+[
+    {
+        "nickname": "RM",
+        "name": "Kim Namjoon",
+        "role": "Leader and Main Rapper",
+        "age": 32,
+        "img": "img/members/rm.jpg",
+        "category": ["rap"]
+    },
+    {
+        "nickname": "Jin",
+        "name": "Kim Seokjin",
+        "role": "Sub-Vocalist and Visual",
+        "age": 33,
+        "img": "img/members/jin.jpg",
+        "category": ["vocal"]
+    },
+    {
+        "nickname": "SUGA",
+        "name": "Min Yoongi",
+        "role": "Lead Rapper",
+        "age": 33,
+        "img": "img/members/suga.jpg",
+        "category": ["rap"]
+    },
+    {
+        "nickname": "J-Hope",
+        "name": "Jung Hoseok",
+        "role": "Main Dancer and Sub-Rapper",
+        "age": 32,
+        "img": "img/members/jhope.jpg",
+        "category": ["rap", "dance"]
+    },
+    {
+        "nickname": "Jimin",
+        "name": "Park Jimin",
+        "role": "Lead Vocalist and Dancer",
+        "age": 30,
+        "img": "img/members/jimin.jpg",
+        "category": ["vocal", "dance"]
+    },
+    {
+        "nickname": "V",
+        "name": "Kim Taehyung",
+        "role": "Sub-Vocalist and Lead Dancer",
+        "age": 30,
+        "img": "img/members/v.jpg",
+        "category": ["vocal", "dance"]
+    },
+    {
+        "nickname": "JK",
+        "name": "Jeon Jungkook",
+        "role": "Main Vocalist and Maknae",
+        "age": 29,
+        "img": "img/members/jk.jpg",
+        "category": ["vocal", "dance"]
+    }
+]
